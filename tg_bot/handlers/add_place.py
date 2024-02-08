@@ -16,7 +16,7 @@ async def add_country(message: types.Message):
     country = places.country_dop
     if " " in country:
         country.replace(" ", "+")
-    await message.answer("Country added")
+    await message.answer("Country has been added")
     places.countries = country
     places.country_dop = ""
 
