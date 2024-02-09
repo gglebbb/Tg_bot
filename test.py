@@ -2,9 +2,9 @@ import requests
 from requests_html import HTMLSession
 from bs4 import BeautifulSoup as BS
 
-country = ""
+country = input("Country:")
 res=""
-city = ""
+city = input("City:")
 url = f"https://www/google.com/search&q={city}+{country}+what+time?+&start"
 letters = "qwertyuiopasdfghjklzxcvbnmйцукенгшщзхъфывапролджэячсмитьбю"
 
